@@ -1,4 +1,3 @@
-# multiuser-online-realtime-code-editor
 # Multiuser online realtime code editor
 
 Для запуска сервера выполнить *npm install* и *npm run start*
