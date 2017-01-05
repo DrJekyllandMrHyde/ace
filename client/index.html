@@ -12,14 +12,12 @@
 }
 </div>
 
-<!-- TODO: Здесь должны подключаться скрипты библиотек -->
-<script src="/lib/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+<script src="/libs/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="/libs/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/libs/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/js/editor.js" type="text/javascript" charset="utf-8"></script>
 
 <script>
-    //TODO: По завершении работ этот код должен начать работать
 	$('#code-editor').codeEditor({ width: 550, height: 220, websocketServer: 'ws://localhost:8081' });
 </script>
 
